@@ -1,0 +1,47 @@
+.comment::before {
+  content: "❤️";
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.first_text::first-letter {
+  font-size: 20px;
+  background-color: #00ffff;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.first_list:before {
+  content: "*";
+  margin-right: 10px;
+}
+
+a::after {
+}
+
+.button:hover {
+  background-color: #ffff00;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+.title::first-letter {
+  font-size: 30px;
+  color: #00ced1;
+}
+
+.article {
+  margin-bottom: 20px;
+}
+
+.first_title::first-line {
+  color: #ff0000; /* Цвет первой строки */
+}
+
+li::marker {
+  content: "✚";
+  color: #ff00ff;
+}
